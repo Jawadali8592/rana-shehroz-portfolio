@@ -14,8 +14,8 @@ import AchievementsSection from "./components/AchievementSection/AchievementSect
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-[#121212] container mx-auto px-12 py-4">
-      <Navbar/>
+    <main className=" bg-[#121212]   px-12 py-4">
+       <Navbar/>
     <HeroSection/>
     <AchievementsSection/>
    <AboutSection/>
@@ -26,6 +26,7 @@ export default function Home() {
    <a href='https://www.facebook.com/shehroz.ali.165470?mibextid=ZbWKwL'><CiFacebook   className="text-white w-8 h-8 ml-8"/></a>
    <a href="https://wa.me/923021635946" target="_blank"><ImWhatsapp className="text-white w-8 h-8 ml-8" /></a>
    <a href='https://www.instagram.com/invites/contact/?i=17502c29sgtaf&utm_content=2h43xpa'><BsInstagram className="text-white w-8 h-8 ml-8"/></a>
+  
    </div>
 
     </main>

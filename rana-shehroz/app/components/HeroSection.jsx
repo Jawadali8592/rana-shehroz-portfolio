@@ -24,7 +24,7 @@ const HeroSection = () => {
         >
 <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
     <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
-        Hello, I'm
+        Hello, I am
     </span>
             <br></br>
             <TypeAnimation
@@ -44,7 +44,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Looking ! to boost your online presence and enhance your website's visibility? Our SEO guest posting services offer a strategic approach to reaching a broader audience and improving your search engine rankings. With carefully crafted content tailored to your niche, we ensure that your brand gets noticed by the right audience. Let us help you establish authority in your industry while driving organic traffic to your site. Partner with us today and unlock the potential of guest posting for your business.
+          Looking ! to boost your online presence and enhance your website s visibility? Our SEO guest posting services offer a strategic approach to reaching a broader audience and improving your search engine rankings. With carefully crafted content tailored to your niche, we ensure that your brand gets noticed by the right audience. Let us help you establish authority in your industry while driving organic traffic to your site. Partner with us today and unlock the potential of guest posting for your business.
 
           </p>
           <div>

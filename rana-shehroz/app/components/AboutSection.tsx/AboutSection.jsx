@@ -25,7 +25,7 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Matric From GOVT AV modern high School</li>
         <li>Intermediate From Govt Graduate College of Commerce</li>
-        <li>BS CS From GC University 'at 6th smester'</li>
+        <li>BS CS From GC University at 6th smester</li>
       </ul>
     ),
   },
@@ -54,7 +54,7 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/assests/about.jpg"width={800} height={900} className="mt-[-35px] w-[1300px] h-[400px] ml-[-30px]" />
+        <Image alt="image" src="/assests/about.jpg"width={800} height={900} className="mt-[-35px] w-[1300px] h-[400px] ml-[-30px]" />
 
 
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
@@ -68,8 +68,8 @@ My expertise in SEO guest posting lies in crafting compelling content tailored t
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
             >
-              {" "}
-              Skills{" "}
+            
+              Skills
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("education")}
